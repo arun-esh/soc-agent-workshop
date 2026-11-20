@@ -1,0 +1,5 @@
+{
+  "sam":  {"password": "sam123",  "role": "analyst", "active": true},
+  "riya": {"password": "riya123", "role": "lead",    "active": true},
+  "omar": {"password": "omar123", "role": "analyst", "active": false}
+}
