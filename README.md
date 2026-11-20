@@ -14,9 +14,8 @@ source .venv/bin/activate
 uv pip install -r requirements.txt   # or: pip install -r requirements.txt
 
 # 2. Add your key (the real .env file is never committed)
-mkdir soc_agents
-cp .env.example soc_agents/.env
-# open soc_agents/.env and replace your-key-here
+cp .env.example .env
+# open .env and replace your-key-here
 
 # 3. Check ADK is installed
 adk --version
