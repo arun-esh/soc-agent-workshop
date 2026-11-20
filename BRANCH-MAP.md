@@ -8,7 +8,7 @@ Approach: new repo, new code from scratch in `soc_agents/`. One branch per step.
 
 | # | Branch | What we add | ADK code (the only new idea) | Files added | What students see |
 |---|---|---|---|---|---|
-| 0 | `00-setup` | Python 3.12, ADK, requirements, `.env.example`, setup check | – | `requirements.txt`, `.python-version`, `.env.example`, `check_setup.py`, `README.md` | `python check_setup.py --live` prints `All good.` |
+| 0 | `00-setup` | Python 3.12, ADK, requirements, `.env.example` | – | `requirements.txt`, `.python-version`, `.env.example`, `README.md` | `adk --version` prints 2.15.0 |
 | 1 | `01-root-agent` | A root agent, the receptionist | `Agent(name, model, instruction)` | `agent.py` | It chats and welcomes you, but can't check anything. |
 | 2 | `02-tools` | A tool to check who you are | `tools=[verify_user]` | `tools/gatekeeper_tools.py`, `data/users.json` | Sign in works. Wrong password and switched-off account are refused. |
 | 3 | `03-sub-agents` | Two colleagues: Analyst and Commander | `sub_agents=[analyst, commander]` | `analyst_agent.py`, `commander_agent.py`, `tools/analyst_tools.py`, `data/alerts.json`, `data/logs.json` | Sam goes to the Analyst and reads alerts. Riya goes to the Commander. |

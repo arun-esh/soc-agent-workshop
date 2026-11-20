@@ -18,17 +18,15 @@ mkdir soc_agents
 cp .env.example soc_agents/.env
 # open soc_agents/.env and replace your-key-here
 
-# 3. Check everything works
-python check_setup.py --live
+# 3. Check ADK is installed
+adk --version
 ```
-
-You should see `All good.` at the end.
 
 ## The branches
 
 | Branch | What it adds |
 |---|---|
-| `00-setup` | Python, ADK, your key, a setup check (you are here) |
+| `00-setup` | Python, ADK, your key (you are here) |
 | `01-root-agent` | A root agent, the receptionist |
 | `02-tools` | A tool to check who you are |
 | `03-sub-agents` | Two colleagues: Analyst and Commander |
