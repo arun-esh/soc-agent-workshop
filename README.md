@@ -23,15 +23,15 @@ adk --version
 
 ## The branches
 
-| Branch | What it adds |
-|---|---|
-| `00-setup` | Python, ADK, your key (you are here) |
-| `01-root-agent` | A root agent, the receptionist |
-| `02-tools` | A tool to check who you are |
+| Branch            | What it adds                          |
+| ----------------- | ------------------------------------- |
+| `00-setup`      | Python, ADK, your key (you are here)  |
+| `01-root-agent` | A root agent, the receptionist        |
+| `02-tools`      | A tool to check who you are           |
 | `03-sub-agents` | Two colleagues: Analyst and Commander |
-| `04-guard` | A guard so roles can't be faked |
-| `05-team` | The Commander gets specialists |
-| `06-approval` | A dangerous action needs a human |
+| `04-guard`      | A guard so roles can't be faked       |
+| `05-team`       | The Commander gets specialists        |
+| `06-approval`   | A dangerous action needs a human      |
 
 Move between them with `git switch <branch>`. To see only what a step added:
 
