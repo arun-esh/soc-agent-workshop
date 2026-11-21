@@ -1,0 +1,4 @@
+{
+  "198.51.100.23": {"verdict": "malicious", "score": 92, "notes": "Known command-and-control server for a macro malware family."},
+  "203.0.113.50": {"verdict": "suspicious", "score": 61, "notes": "Seen in password-spraying against VPN gateways."}
+}
