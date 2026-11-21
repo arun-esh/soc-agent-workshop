@@ -1,10 +1,12 @@
 import json
 from pathlib import Path
 
+from google.adk.tools import ToolContext
+
 USERS_FILE = Path(__file__).parent.parent / "data" / "users.json"
 
 
-def verify_user(username: str, password: str) -> dict:
+def verify_user(username: str, password: str, tool_context: ToolContext) -> dict:
     """Checks a username and password against the staff list.
 
     Args:
@@ -20,4 +22,5 @@ def verify_user(username: str, password: str) -> dict:
         return {"status": "denied", "reason": "Wrong username or password."}
     if not user["active"]:
         return {"status": "denied", "reason": "This account is switched off."}
+    tool_context.state["role"] = user["role"]  # remembered by the code, not by the chat
     return {"status": "ok", "role": user["role"]}
