@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A-201",
+    "severity": "high",
+    "title": "Encoded PowerShell launched by Excel",
+    "host": "FIN-LT-07",
+    "user": "mira",
+    "time": "2026-11-20T09:14:00Z"
+  },
+  {
+    "id": "A-202",
+    "severity": "medium",
+    "title": "Repeated failed logins for service account",
+    "host": "VPN-GW-01",
+    "user": "svc-backup",
+    "time": "2026-11-20T09:31:00Z"
+  },
+  {
+    "id": "A-203",
+    "severity": "low",
+    "title": "Large upload to a rarely seen domain",
+    "host": "HR-PC-12",
+    "user": "dev",
+    "time": "2026-11-20T10:02:00Z"
+  }
+]

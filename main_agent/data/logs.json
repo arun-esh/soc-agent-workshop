@@ -1,0 +1,9 @@
+[
+  {"time": "2026-11-20T09:13:41Z", "host": "FIN-LT-07", "message": "EXCEL.EXE opened invoice_Q4.xlsm from the Downloads folder"},
+  {"time": "2026-11-20T09:14:02Z", "host": "FIN-LT-07", "message": "EXCEL.EXE started powershell.exe with an encoded command"},
+  {"time": "2026-11-20T09:14:09Z", "host": "FIN-LT-07", "message": "powershell.exe connected to 198.51.100.23 on port 443"},
+  {"time": "2026-11-20T09:29:50Z", "host": "VPN-GW-01", "message": "Login failed for svc-backup from 203.0.113.50"},
+  {"time": "2026-11-20T09:30:12Z", "host": "VPN-GW-01", "message": "Login failed for svc-backup from 203.0.113.50"},
+  {"time": "2026-11-20T09:30:47Z", "host": "VPN-GW-01", "message": "Login failed for svc-backup from 203.0.113.50"},
+  {"time": "2026-11-20T10:01:30Z", "host": "HR-PC-12", "message": "480 MB uploaded to files-share.example.net"}
+]
